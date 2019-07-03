@@ -11,14 +11,14 @@ NOTE: all files within \libraries are made by [nootropic design](https://github.
     g: gate, d: drain, s: source
     =: 1k ohm resistor
 
-    MOSFET
-    g d s
-    | |=|
-    | | |__OUPUT on shield
-    | |
-    | |__INPUT on shield
-    |
-    pin 10
+    MOSFET  
+    g d s  
+    | |=|  
+    | | |__OUPUT on shield  
+    | |  
+    | |__INPUT on shield  
+    |  
+    pin 10  
 
     
 3.  upload VideoOverlay.ino to the arduino attached
