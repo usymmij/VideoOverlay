@@ -1,4 +1,5 @@
 # VideoOverlay
+NOTE: all files within \libraries are made by [nootropic design](https://github.com/nootropicdesign). Their repo for those files are [here](https://github.com/nootropicdesign/arduino-tvout-ve). The folder is merely placed in this repo for convenience.
 
 ## Installation Instructions
 1.   Place the folders inside the folder libraries in
