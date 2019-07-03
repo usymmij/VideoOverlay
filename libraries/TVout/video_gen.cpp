@@ -36,6 +36,9 @@
 //#define REMOVE4C
 //#define REMOVE3C
 
+#define MINBAR 30//smallest possible value is 30
+#define MAXBAR 61//largest possible value is 240
+
 int renderLine;
 TVout_vid display;
 void (*render_line)();			//remove me
@@ -313,6 +316,11 @@ void render_line6c() {
 }
 
 void render_line5c() {
+	if ((display.scanLine > MINBAR) && (display.scanLine < MAXBAR)) {
+
+PORTB &= ~(_BV(2)); // video off for lower lines
+
+}
 	#ifndef REMOVE5C
 	__asm__ __volatile__ (
 		"ADD	r26,r28\n\t"
@@ -379,6 +387,7 @@ void render_line5c() {
 		: "r16" // try to remove this clobber later...
 	);
 	#endif
+	PORTB |= _BV(2);
 }
 
 void render_line4c() {
