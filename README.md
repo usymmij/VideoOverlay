@@ -7,16 +7,16 @@ NOTE: all files within \libraries are made by [nootropic design](https://github.
         OSX: /Users/<username>/Documents/Arduino/libraries/
         Windows: /C:/Users/<username>/Documents/Arduino/libraries
 
-2.  set up the following circuit: 
-    g: gate, d: drain, s: source
-    =: 1k ohm resistor
-
+2.  set up the following circuit:  
+    g: gate, d: drain, s: source  
+    ==: 1k ohm resistor  
+  >
     MOSFET  
-    g d s  
-    | |=|  
-    | | |__OUPUT on shield  
-    | |  
-    | |__INPUT on shield  
+    g  d  s  
+    |  |==|  
+    |  |  |__OUPUT on shield  
+    |  |  
+    |  |__INPUT on shield  
     |  
     pin 10  
 
