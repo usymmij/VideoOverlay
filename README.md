@@ -14,11 +14,11 @@
     
     >  
     > IRF540  
-    > g  d  s  
-    > |  |==|  
-    > |  |  |__OUPUT on shield  
-    > |  |  
-    > |  |__INPUT on shield  
+    > g&nbsp;&nbsp;d&nbsp;&nbsp;s  
+    > |&nbsp;&nbsp;|==|  
+    > |&nbsp;&nbsp;|&nbsp;&nbsp;|__OUPUT on shield  
+    > |&nbsp;&nbsp;|  
+    > |&nbsp;&nbsp;|__INPUT on shield  
     > |  
     > pin 10     
 
