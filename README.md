@@ -16,7 +16,7 @@
     > IRF540  
     > g&nbsp;&nbsp;&nbsp;d&nbsp;&nbsp;&nbsp;s  
     > |&nbsp;&nbsp;&nbsp;&nbsp;|==|  
-    > |&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|__OUPUT on shield  
+    > |&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; |__OUPUT on shield  
     > |&nbsp;&nbsp;&nbsp;&nbsp;|  
     > |&nbsp;&nbsp;&nbsp;&nbsp;|__INPUT on shield  
     > |  
