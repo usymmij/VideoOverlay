@@ -11,7 +11,7 @@
     any MOSFET should work but the one used by us was the IRF540  
     g: gate, d: drain, s: source  
     ==: 1k ohm resistor  
-  >
+        >
     MOSFET  
     g  d  s  
     |  |==|  
