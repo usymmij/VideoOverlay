@@ -11,15 +11,14 @@
     any MOSFET should work but the one used by us was the IRF540  
     g: gate, d: drain, s: source  
     ==: 1k ohm resistor  
-        >
-    MOSFET  
-    g  d  s  
-    |  |==|  
-    |  |  |__OUPUT on shield  
-    |  |  
-    |  |__INPUT on shield  
-    |  
-    pin 10  
+        >  IRF540 
+          g  d  s  
+          |  |==|  
+          |  |  |__OUPUT on shield  
+          |  |  
+          |  |__INPUT on shield  
+          |  
+         pin 10  
 
     
 3.  ### upload VideoOverlay.ino to the arduino attached
