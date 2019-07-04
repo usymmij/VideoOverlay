@@ -8,9 +8,10 @@
         Windows: /C:/Users/<username>/Documents/Arduino/libraries
 
 2.  ### set up the following circuit:  
+    Video experimenter settings should be SYNC ONLY and sync select jumper should short V AND INPUT  
     any MOSFET should work but the one used by us was the IRF540  
     g: gate, d: drain, s: source  
-    ==: 1k ohm resistor  
+    ==: 240 ohm resistor  
     
     >  
     > IRF540  
