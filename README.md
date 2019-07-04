@@ -30,18 +30,18 @@
 The TVout library(not the core version, the one built for the video experimenter from [here](https://github.com/nootropicdesign/arduino-tvout-ve)) has a modification made to it. This modification was sourced from the [forum](https://nootropicdesign.com/store/forums/) in this [thread](https://nootropicdesign.com/store/forums/topic/black-letters/)
 
 ### VideoGen.cpp
-        - add the macros
-        ```C
-        #define MIN_BAR 30 //minimum top of the bar is 30
-        #define MAX_BAR 60 //maximum bottom of the bar is 240
-        ```
-        - add this to the **very top** of the function `render_line5c()`
-        ```C
-        if ((display.scanLine > MIN_BAR) && (display.scanLine < MAX_BAR)) {
-                PORTB &= ~(_BV(2));  // video off for lower lines
-        }
-        ```
-        - add this to the **very bottom** of the function `render_line5c()`
-        ```C
-        PORTB |= _BV(2);
-        ```  
+- add the macros
+```C
+#define MIN_BAR 30 //minimum top of the bar is 30
+#define MAX_BAR 60 //maximum bottom of the bar is 240
+```
+- add this to the **very top** of the function `render_line5c()`
+```C
+if ((display.scanLine > MIN_BAR) && (display.scanLine < MAX_BAR)) {
+        PORTB &= ~(_BV(2));  // video off for lower lines
+}
+```
+- add this to the **very bottom** of the function `render_line5c()`
+```C
+PORTB |= _BV(2);
+```  
